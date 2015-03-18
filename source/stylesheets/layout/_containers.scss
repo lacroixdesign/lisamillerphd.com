@@ -1,0 +1,19 @@
+// General Containers
+
+.l-constrained {
+  @include outer-container;
+  padding-right: $page-gutter;
+  padding-left: $page-gutter;
+}
+
+.l-main {
+  @include media-ie($breakpoint-ipad) {
+    @include span-columns(8);
+  }
+}
+
+.l-sidebar {
+  @include media-ie($breakpoint-ipad) {
+    @include span-columns(4);
+  }
+}
