@@ -1,0 +1,99 @@
+// scss-lint:disable SelectorDepth
+
+.b-Text {
+  word-wrap: break-word;
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0.5em;
+  }
+
+  a,
+  a:focus,
+  a:visited {
+  }
+
+  a:hover {
+  }
+
+  p,
+  ul,
+  ol,
+  li {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  p:last-child,
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  ul {
+    padding-left: 2.25em;
+    margin: 1em auto;
+    list-style: disc;
+  }
+
+  ul ul {
+    list-style: circle;
+  }
+
+  ul ul ul {
+    list-style: square;
+  }
+
+  blockquote {
+    clear: both;
+    padding: 1em;
+    margin: 1.5em 1em;
+    border-left: 3px solid #ccc;
+    color: $color--text-default;
+  }
+
+  img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 1em auto;
+  }
+
+  table {
+    width: auto;
+  }
+
+  th,
+  td {
+    padding: 0.75em 0.5em;
+    border-bottom: 0;
+    vertical-align: top;
+
+    &:first-child { padding-left: 0; }
+    &:last-child { padding-right: 0; }
+  }
+
+  pre {
+    padding: 1em;
+    margin: 1.5em auto;
+  }
+
+  pre code {
+    font-size: 0.75em;
+  }
+
+  p code {
+    display: inline-block;
+    padding: 0 0.25em;
+  }
+}

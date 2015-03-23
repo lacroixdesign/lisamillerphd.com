@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+// Settings
+@import 'settings/typography';
+@import 'settings/layout';
+@import 'settings/colors';
+
+// Vendor
+@import 'bourbon';
+@import 'neat';
+
+// Lib
+@import 'lib/utilities';
+@import 'lib/animations';
+
+// Elements
+@import 'elements/document';
+@import 'elements/typography';
+
+// Blocks
+@import 'blocks/text';
+
+// Sections
+@import 'sections/header';
+@import 'sections/footer';
+
+// Pages
+@import 'pages/home/welcome';

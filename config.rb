@@ -1,4 +1,3 @@
-require "boarding_pass"
 require "lib/application_helper"
 helpers ApplicationHelper
 
@@ -29,8 +28,6 @@ helpers ApplicationHelper
 
 activate :deploy do |deploy|
   deploy.method = :git
-  # deploy.remote = "origin" # uses 'origin' by default
-  # deploy.branch = "gh-pages" # uses 'gh-pages' by default
 end
 
 
@@ -49,6 +46,8 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
+
+  activate :minify_html
 
   activate :asset_hash
   activate :gzip
