@@ -33,7 +33,7 @@
   <%= stylesheet_link_tag "main" %>
 
   <%# Modernizr %>
-  <%= javascript_include_tag  "modernizr" %>
+  <%= javascript_include_tag  "vendor/modernizr" %>
 
   <%# Google Analytics %>
   <% if data.site.google_analytics_id %>
@@ -66,5 +66,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="<%= jquery %>"><\/script>')</script>
   <%= javascript_include_tag  "main" %>
+
 </body>
 </html>

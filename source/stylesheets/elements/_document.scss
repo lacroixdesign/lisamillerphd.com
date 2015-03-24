@@ -16,12 +16,16 @@ html {
 
 body {
   position: relative;
-  padding: 0;
+  padding: #{$header-height-small}em 0 0 0;
   margin: 0;
   background: #fff;
   color: $color--text-default;
   font-family: $font--serif;
   font-size: 100%;
+
+  @include media($header-breakpoint) {
+    padding-top: #{$header-height-large}em;
+  }
 }
 
 a,

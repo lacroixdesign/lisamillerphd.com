@@ -1,0 +1,14 @@
+.p-HomeMedia {
+  @extend .s-Section;
+  height: 1em; // TODO remove when content is added
+  padding-top: $section-padding * 8;
+  margin-top: -#{$section-padding * 8};
+  background: $green-grey url('../images/bg.jpg') top center no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  @include media($section-breakpoint) {
+    padding-top: $section-padding-large * 8;
+    margin-top: -#{$section-padding-large * 8};
+  }
+}

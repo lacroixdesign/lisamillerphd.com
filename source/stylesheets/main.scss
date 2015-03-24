@@ -19,16 +19,21 @@
 @import 'elements/typography';
 @import 'elements/buttons';
 @import 'elements/inputs';
+@import 'elements/containers';
 
 // Blocks
 @import 'blocks/text';
 
 // Sections
+@import 'sections/section';
 @import 'sections/header';
 @import 'sections/footer';
 @import 'sections/nav';
 
 // Pages
 @import 'pages/home/welcome';
+@import 'pages/home/main';
 @import 'pages/home/newsletter';
 @import 'pages/home/author';
+@import 'pages/home/video';
+@import 'pages/home/media';

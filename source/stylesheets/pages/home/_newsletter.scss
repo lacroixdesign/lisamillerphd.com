@@ -1,14 +1,9 @@
 .p-HomeNewsletter {
-  position: relative;
-  z-index: 1;
-  margin: auto;
+  @include outer-container;
+  margin: -#{$section-padding * 2} auto $section-padding;
+  text-align: center;
 
-  .p-HomeNewsletter-content {
-    @include outer-container;
-    position: absolute center;
-    background: $white;
-    padding: 3em;
-    text-align: center;
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16),0px 2px 5px 0px rgba(0,0,0,0.23);
+  @include media($section-breakpoint) {
+    margin-top: -#{$section-padding-large * 2};
   }
 }

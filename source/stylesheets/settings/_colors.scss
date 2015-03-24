@@ -4,3 +4,4 @@ $white:        #fff;
 $green:        #67ad44;
 $green-grey:  desaturate(lighten($green, 40), 40);
 $grey:         #666666;
+$light-green:  desaturate(lighten($green, 5), 5);

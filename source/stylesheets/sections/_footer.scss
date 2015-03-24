@@ -4,4 +4,7 @@
  * ------------------------------------------------
  */
 
-.s-footer {}
+.s-Footer {
+  padding: $section-padding/2 $page-gutter;
+  background: $white;
+}

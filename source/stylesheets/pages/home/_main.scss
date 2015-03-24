@@ -1,0 +1,9 @@
+.p-HomeMain {
+  @extend .s-Section;
+  background: $light-green;
+
+  > section {
+    position: relative;
+    z-index: 1;
+  }
+}

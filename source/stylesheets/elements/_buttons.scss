@@ -1,99 +1,99 @@
 /*
- * Button style
- */
-@mixin btn-style($bg, $color, $border, $multiplier: 1) {
-  $delta: 3 * $multiplier;
+ * Target all states except hover
+ *---------------------------------------------------------*/
 
-  border: none;
-  @if $border != none {
-    border-bottom: 0px solid $border;
-  }
-  border-radius: 2px;
-  box-shadow: none;
-  background: $bg;
-  color: $color;
+@mixin btn-all-except-hover {
+  @content;
 
+  &:focus,
+  &:active,
   &:visited {
-    background: $bg;
-    color: $color;
+    @content;
   }
+}
 
-  &:hover {
-    border: none;
-    background: lighten($bg, $delta);
-    color: $color;
-  }
+/*
+ * Base disabled builder
+ *---------------------------------------------------------*/
 
-  &:active {
-    border: none;
-    background: darken($bg, $delta);
-    color: $color;
-  }
-
-  &:focus {
-    color: $color;
-  }
-
+@mixin btn-disabled {
+  &.disabled,
   &[disabled],
   &[disabled]:hover,
   &[disabled]:active {
-    @include opacity(0.5);
-    border: none;
-    background: $bg;
+    @content;
   }
-
-} // @mixin btn-style
+}
 
 /*
- * Button
- */
-@mixin btn($bg: #e3e3e3, $color: #999, $border: #aaa, $multiplier: 1) {
+ * Base button builder
+ *---------------------------------------------------------*/
+
+@mixin btn-base {
+  @include appearance(none);
+  @include font-smoothing(on);
+  position: relative;
+  z-index: 1;
   vertical-align: middle;
   display: inline-block;
-  padding: 0.65em 1.25em;
+  padding: 1em 1.5em;
   margin: 0.25em 0;
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 1.2;
+  border: 0;
+  border-radius: 0;
+  font-family: $font--sans;
+  font-size: 0.875em;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: uppercase;
+  text-rendering: optimizelegibility;
   white-space: nowrap;
   cursor: pointer;
   @include user-select(none);
-  @include transition(none);
-  @include btn-style($bg, $color, $border, $multiplier);
 
-  &.large {
-    font-size: 1.25em;
+  @include btn-disabled {
+    cursor: default;
+    opacity: 0.5;
+  }
+}
+
+/*
+ * Plain button builder
+ *---------------------------------------------------------*/
+
+@mixin btn($bg, $hover-bg, $text: false) {
+  $text: if($text, $text, $white);
+  @include btn-base;
+
+  @include btn-all-except-hover {
+    background: $bg;
+    color: $text;
   }
 
-  &.x-large {
-    font-size: 1.5em;
+  &:hover {
+    background: $hover-bg;
+    color: $text;
   }
 
-  &.small {
-    font-size: 0.875em;
+  @include btn-disabled {
+    background: $bg;
+    color: $text;
   }
+}
 
-  &.mini {
-    font-size: 0.75em;
-  }
+/*
+ * Buttons
+ *---------------------------------------------------------*/
 
-  i[data-icon] {
-    position: relative;
-    top: 2px;
-  }
+// Green
+.Btn {
+  @include btn($green, darken($green, 10));
+}
 
-  &.icon-left {
-    [data-icon] {
-      margin-right: 0.5em;
-    }
-  }
-
-  &.icon-right {
-    [data-icon] {
-      margin-left: 0.5em;
-    }
-  }
-
-  @content;
-
-} // @mixin btn
+// Black
+//.Btn-primary {
+//  @include btn($black, $black);
+//}

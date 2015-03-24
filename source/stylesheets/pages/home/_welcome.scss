@@ -1,22 +1,39 @@
 .p-HomeWelcome {
-  background: $green-grey;
-  padding: 6em $page-gutter 12em;
-  
-  .p-HomeWelcome__wrapper {
-    @include outer-container;
+  @extend .s-Section;
+  padding-top: $section-padding;
+  padding-bottom: $section-padding * 2;
+  background: $green-grey url('../images/bg.jpg') top center no-repeat fixed;
+  background-size: cover;
+
+  img {
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1),
+                0px 1px 2px 0px rgba(0,0,0,0.15);
   }
 
+  @include media($section-breakpoint) {
+    padding-top: $section-padding-large * 1.5;
+    padding-bottom: $section-padding-large * 2.5;
+  }
+}
+
+.p-HomeWelcome__wrapper {
+  @include outer-container;
+}
+
+.p-HomeWelcome__book-image {
+  max-width: 10em;
+  margin: 0 auto 3em;
+}
+
+@include media($layout--xlarge) {
   .p-HomeWelcome__book-image {
-    padding-bottom: 3em;
+    @include span-columns(2 of 6);
+    max-width: none;
+    margin-bottom: 0;
   }
 
-  @include media($nav-breakpoint) {
-    .p-HomeWelcome__book-image {
-      @include span-columns(4);
-    }
-    .p-HomeWelcome__synopsis {
-      @include span-columns(8);
-      @include omega
-    }
+  .p-HomeWelcome__synopsis {
+    @include span-columns(4 of 6);
+    @include omega
   }
 }

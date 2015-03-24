@@ -1,0 +1,11 @@
+.s-Section {
+  padding: $section-padding $page-gutter;
+
+  @include media($section-breakpoint) {
+    padding: $section-padding-large $page-gutter;
+  }
+}
+
+.s-SectionWrapper {
+  @include outer-container;
+}
