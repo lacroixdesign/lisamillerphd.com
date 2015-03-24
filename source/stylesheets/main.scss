@@ -16,7 +16,7 @@
 
 // Elements
 @import 'elements/document';
-@import 'elements/typography';
+@import 'elements/svg';
 @import 'elements/buttons';
 @import 'elements/inputs';
 @import 'elements/containers';
@@ -31,6 +31,7 @@
 @import 'sections/nav';
 
 // Pages
+@import 'pages/home/index';
 @import 'pages/home/welcome';
 @import 'pages/home/main';
 @import 'pages/home/newsletter';

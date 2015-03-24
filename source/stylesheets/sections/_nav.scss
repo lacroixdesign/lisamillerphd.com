@@ -57,6 +57,11 @@
     &:active { background: darken($green, 10); }
   }
 
+  svg {
+    height: 100%;
+    font-size: 1.5em;
+  }
+
   [data-behavior='close-menu'] {
     display: none;
   }

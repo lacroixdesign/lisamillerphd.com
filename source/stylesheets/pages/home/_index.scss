@@ -1,0 +1,7 @@
+.p-Home {
+  @include media($layout--large) {
+    .Container {
+      padding: 2em;
+    }
+  }
+}

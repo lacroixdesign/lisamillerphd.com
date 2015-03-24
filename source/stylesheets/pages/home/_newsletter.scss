@@ -3,6 +3,27 @@
   margin: -#{$section-padding * 2} auto $section-padding;
   text-align: center;
 
+  h1 {
+    margin-bottom: 1em;
+    color: $dark-green;
+    font-family: $font--sans;
+    font-weight: normal;
+    font-size: 1.5;
+  }
+
+  p {
+    max-width: 30em;
+    margin: auto;
+    font-size: 112.5%;
+  }
+
+  .p-HomeNewsletter__form {
+    max-width: 30em;
+    margin: auto;
+    font-family: $font--sans;
+    text-transform: uppercase;
+  }
+
   @include media($section-breakpoint) {
     margin-top: -#{$section-padding-large * 2};
   }

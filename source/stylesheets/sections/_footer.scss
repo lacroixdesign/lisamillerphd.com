@@ -5,6 +5,13 @@
  */
 
 .s-Footer {
-  padding: $section-padding/2 $page-gutter;
   background: $white;
+  padding: $section-padding $page-gutter;
+  font-family: $font--sans;
+  text-align: center;
+}
+
+.s-Footer__attribution a {
+  border-bottom: none;
+  font-size: 75%;
 }

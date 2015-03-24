@@ -1,7 +1,23 @@
-$color--text-default: #222;
-
+$black:        #222;
 $white:        #fff;
 $green:        #67ad44;
-$green-grey:  desaturate(lighten($green, 40), 40);
-$grey:         #666666;
 $light-green:  desaturate(lighten($green, 5), 5);
+$dark-green:  desaturate(darken($green, 25), 5);
+$light-grey:  desaturate(lighten($green, 40), 40);
+$grey:         desaturate($green, 50);
+$dark-gray: #333 !default;
+$light-gray: #DDD !default;
+
+$color--text-default: $black !default;
+$base-accent-color: $green !default;
+$base-link-color: $base-accent-color !default;
+$base-font-color: $dark-gray !default;
+
+$button-color: $green;
+$input-border-color: $grey;
+$input-focus-color: $light-green;
+$input-success-color: $green;
+$input-error-color: red;
+$radio-empty-color: $light-grey;
+$radio-fill-color: $grey;
+$input-disabled-color: $light-grey;

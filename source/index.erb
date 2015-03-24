@@ -1,16 +1,19 @@
 ---
 title: "Index"
 ---
-<%# Welcome %>
-<%= partial "home/welcome" %>
 
-<div class="p-HomeMain">
-  <%# Newsletter %>
-  <%= partial "home/newsletter" %>
-  <%# Author %>
-  <%= partial "home/author" %>
-  <%# Video %>
-  <%= partial "home/video" %>
+<div class="p-Home">
+  <%# Welcome %>
+  <%= partial "home/welcome" %>
+
+  <div class="p-HomeMain">
+    <%# Newsletter %>
+    <%= partial "home/newsletter" %>
+    <%# Author %>
+    <%= partial "home/author" %>
+    <%# Video %>
+    <%= partial "home/video" %>
+  </div>
+
+  <%= partial "home/media" %>
 </div>
-
-<%= partial "home/media" %>

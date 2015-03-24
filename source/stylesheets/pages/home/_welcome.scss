@@ -2,7 +2,7 @@
   @extend .s-Section;
   padding-top: $section-padding;
   padding-bottom: $section-padding * 2;
-  background: $green-grey url('../images/bg.jpg') top center no-repeat fixed;
+  background: $light-grey url('../images/bg.jpg') top center no-repeat fixed;
   background-size: cover;
 
   img {
@@ -20,16 +20,34 @@
   @include outer-container;
 }
 
+.p-HomeWelcome__book {
+  margin: 0 auto 3em;
+
+  .Btn {
+    display: block;
+    margin: auto;
+    max-width: 15em;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1),
+                0px 1px 2px 0px rgba(0,0,0,0.15);
+  }
+}
+
 .p-HomeWelcome__book-image {
   max-width: 10em;
-  margin: 0 auto 3em;
+  margin: 0 auto 0.5em;
 }
 
 @include media($layout--xlarge) {
+
   .p-HomeWelcome__book-image {
-    @include span-columns(2 of 6);
     max-width: none;
+  }
+
+  .p-HomeWelcome__book {
+    @include span-columns(2 of 6);
     margin-bottom: 0;
+
+    .Btn { max-width: none; }
   }
 
   .p-HomeWelcome__synopsis {
