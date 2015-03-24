@@ -4,6 +4,7 @@
 @import 'settings/typography';
 @import 'settings/layout';
 @import 'settings/colors';
+@import 'settings/page';
 
 // Vendor
 @import 'bourbon';
@@ -16,6 +17,8 @@
 // Elements
 @import 'elements/document';
 @import 'elements/typography';
+@import 'elements/buttons';
+@import 'elements/inputs';
 
 // Blocks
 @import 'blocks/text';
@@ -23,6 +26,9 @@
 // Sections
 @import 'sections/header';
 @import 'sections/footer';
+@import 'sections/nav';
 
 // Pages
 @import 'pages/home/welcome';
+@import 'pages/home/newsletter';
+@import 'pages/home/author';

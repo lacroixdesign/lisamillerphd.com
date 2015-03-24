@@ -1,3 +1,22 @@
 .p-HomeWelcome {
-  .p-HomeWelcome__example-item {}
+  background: $green-grey;
+  padding: 6em $page-gutter 12em;
+  
+  .p-HomeWelcome__wrapper {
+    @include outer-container;
+  }
+
+  .p-HomeWelcome__book-image {
+    padding-bottom: 3em;
+  }
+
+  @include media($nav-breakpoint) {
+    .p-HomeWelcome__book-image {
+      @include span-columns(4);
+    }
+    .p-HomeWelcome__synopsis {
+      @include span-columns(8);
+      @include omega
+    }
+  }
 }
