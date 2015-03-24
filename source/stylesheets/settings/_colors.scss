@@ -5,13 +5,13 @@ $light-green:  desaturate(lighten($green, 5), 5);
 $dark-green:  desaturate(darken($green, 25), 5);
 $light-grey:  desaturate(lighten($green, 40), 40);
 $grey:         desaturate($green, 50);
-$dark-gray: #333 !default;
-$light-gray: #DDD !default;
+$dark-grey: #333 !default;
+
 
 $color--text-default: $black !default;
 $base-accent-color: $green !default;
 $base-link-color: $base-accent-color !default;
-$base-font-color: $dark-gray !default;
+$base-font-color: $dark-grey !default;
 
 $button-color: $green;
 $input-border-color: $grey;

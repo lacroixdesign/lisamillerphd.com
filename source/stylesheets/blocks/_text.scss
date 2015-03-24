@@ -3,7 +3,7 @@
 .b-Text {
   word-wrap: break-word;
 
-  h1, h2, h3, p {
+  h1, h2, h3 {
     margin: 0;
   }
 
@@ -62,7 +62,7 @@
     margin: $base-spacing 0;
     border-top: none;
     border-right: none;
-    border-bottom: 1px solid $light-gray;
+    border-bottom: 1px solid $light-grey;
     border-left: none;
   }
 
