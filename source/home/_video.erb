@@ -5,7 +5,15 @@
     <h2>Depression and spiritual awakening&mdash;two sides of one door</h2>
     <div class="p-HomeVideo__player">
       <div data-fluid-video>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/7c5t6FkvUG0" frameborder="0" allowfullscreen></iframe>
+        <% youtube_opts = {
+          showinfo: '0',
+          color: 'white',
+          rel: '0',
+          theme: 'light',
+          controls: '2'
+        }.map { |k, v| "#{k}=#{v}" }.join('&') %>
+        <iframe src="https://www.youtube.com/embed/7c5t6FkvUG0?<%= youtube_opts %>"
+                width="1280" height="720" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <p>This talk was given at a local TEDx event, produced independently of the TED Conferences. Is depression, as most of us experience it, meaningless suffering? Dr. Lisa Miller presents research that lends meaning to the experience of depression and to our experience on planet Earth. </p>
