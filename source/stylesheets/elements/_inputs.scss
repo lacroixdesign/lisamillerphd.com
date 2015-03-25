@@ -56,7 +56,7 @@ label {
   input[type=search].valid,
   textarea.materialize-textarea.valid {
     border-bottom: 1px solid $input-success-color;
-    @include box-shadow(0 1px 0 0 $input-success-color);
+    box-shadow: 0 1px 0 0 $input-success-color;
   }
 
   input[type=text].invalid,
@@ -69,7 +69,7 @@ label {
   input[type=search].invalid,
   textarea.materialize-textarea.invalid {
     border-bottom: 1px solid $input-error-color;
-    @include box-shadow(0 1px 0 0 $input-error-color);
+    box-shadow: 0 1px 0 0 $input-error-color;
   }
 
   // Prefix Icons
@@ -131,7 +131,7 @@ textarea.materialize-textarea {
   font-size: 1rem;
   margin: 0 0 15px 0;
   padding: 0;
-  @include box-shadow(none);
+  box-shadow: none;
   @include box-sizing(content-box);
   @include transition(.3s);
 }
@@ -146,7 +146,7 @@ input[type=number]:focus,
 input[type=search]:focus,
 textarea:focus.materialize-textarea {
   border-bottom: 1px solid $input-focus-color;
-  @include box-shadow(0 1px 0 0 $input-focus-color);
+  box-shadow: 0 1px 0 0 $input-focus-color;
 }
 
 textarea.materialize-textarea {

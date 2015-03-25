@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem 'middleman'
+gem 'middleman', "~>3.3.10"
 gem 'middleman-minify-html'
 gem 'middleman-deploy'
 gem 'highline'
-gem 'bourbon'
+gem 'bourbon', '>= 4.2.0'
 gem 'neat'
