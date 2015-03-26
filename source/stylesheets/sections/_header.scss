@@ -23,17 +23,12 @@
   }
 
   @include media(min-height $header-breakpoint) {
-
+    height: #{$header-height-large}em;
+    
     .s-Header__logo a {
       padding: 0.5em;
     }
   }
-
-
-  @include media(min-height $header-breakpoint) {
-    height: #{$header-height-large}em;
-  }
-
 } // .s-Header
 
 .s-HeaderConstrained {

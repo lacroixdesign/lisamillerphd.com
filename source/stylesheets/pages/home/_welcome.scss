@@ -1,9 +1,8 @@
 .p-HomeWelcome {
   @extend .s-Section;
+  @include scrolling-clouds;
   padding-top: $section-padding;
   padding-bottom: $section-padding * 2;
-  background: $light-grey image-url('bg.jpg') top center no-repeat fixed;
-  background-size: cover;
 
   img {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
@@ -26,19 +25,24 @@
   .Btn {
     display: block;
     max-width: 15em;
-    margin: auto;
+    margin: 0 auto 1em;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
                 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  h4 {
+  text-align: center;
+  text-transform: uppercase;
   }
 }
 
 .p-HomeWelcome__book-image {
   max-width: 10em;
-  margin: 0 auto 0.5em;
+  margin: 0 auto 1em;
 }
 
 .p-HomeWelcome__author {
-  margin: 0.5em 0 1em;
+  margin: 0.5em 0 2em;
   font-family: $font--serif;
   font-size: 0.875em;
   font-style: italic;
@@ -47,7 +51,7 @@
 @include media($layout--xlarge) {
 
   .p-HomeWelcome__book-image {
-    max-width: none;
+    max-width: 12em;
   }
 
   .p-HomeWelcome__book {

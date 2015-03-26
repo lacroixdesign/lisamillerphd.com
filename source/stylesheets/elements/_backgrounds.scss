@@ -1,0 +1,9 @@
+@mixin scrolling-clouds {
+  @include animation(animatedBackground 50s ease-in-out infinite);
+  @include animation-direction(alternate);
+  background: $light-grey image-url('bg.jpg') 0 0 repeat-x;
+
+  @include media($layout--xlarge) {
+    @include animation-duration(20s);
+  }
+}

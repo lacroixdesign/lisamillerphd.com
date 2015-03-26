@@ -1,1 +1,21 @@
-<div class="p-HomeMedia"></div>
+<section id="media" class="p-HomeMedia">
+  <div class="p-HomeMedia__wrapper Container wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">
+    <h1>Media</h1>
+    <div class="p-HomeMedia__links">
+      <div class="p-HomeMedia__links-group">
+        <h2>Online Articles</h2>
+        <ul>
+          <% data.articles.each do |article| %>
+          <li class="b-Text"> <a href="<%= article.url %>" target="_blank"><%= article.title %></a></li>
+          <% end %>
+      </div>
+      <div class="p-HomeMedia__links-group">
+        <h2>Television Appearences</h2>
+      </div>
+    </div>
+  </div>
+
+  <%# Praise %>
+  <%= partial "home/praise" %>
+
+</section>

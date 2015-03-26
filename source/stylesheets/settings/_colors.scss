@@ -1,9 +1,10 @@
 $black:        #222;
 $white:        #fff;
 $green:        #67ad44;
+$pale-green:  desaturate(lighten($green, 45), 0);
 $light-green:  desaturate(lighten($green, 5), 5);
 $dark-green:  desaturate(darken($green, 25), 5);
-$light-grey:  desaturate(lighten($green, 40), 40);
+$light-grey:  #dddddd;
 $grey:         desaturate($green, 50);
 $dark-grey: #333 !default;
 

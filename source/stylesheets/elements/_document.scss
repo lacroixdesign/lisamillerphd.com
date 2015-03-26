@@ -23,7 +23,7 @@ body {
   font-family: $font--serif;
   font-size: 100%;
 
-  @include media($header-breakpoint) {
+  @include media(min-height $header-breakpoint) {
     padding-top: #{$header-height-large}em;
   }
 }

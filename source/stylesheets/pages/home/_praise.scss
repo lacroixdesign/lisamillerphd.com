@@ -1,0 +1,43 @@
+.p-HomePraise {
+  margin-bottom: $section-padding;
+
+
+  h1 {
+    margin-bottom: 1em;
+    color: $dark-green;
+    font-family: $font--sans;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+
+.p-HomePraise__wrapper {
+  @include outer-container;
+
+  .p-HomePraise__items {
+    @include row;
+  }
+
+  blockquote {
+    border-left: none;
+    padding: 1em 0 1em;
+    margin: 0 auto;
+  }
+
+  cite {
+    display: block;
+    margin-top: 1em;
+    font-size: 75%;
+    color: $green;
+
+    &:before { content: "—" }
+  }
+
+  @include media($layout--xlarge) {
+    blockquote {
+      @include span-columns(3 of 6);
+      @include omega(2n);
+    }
+  } //@include media($layout--medium)
+}

@@ -1,14 +1,44 @@
 .p-HomeMedia {
   @extend .s-Section;
-  height: 1em; // TODO remove when content is added
+  @include scrolling-clouds;
   padding-top: $section-padding * 8;
   margin-top: -#{$section-padding * 8};
-  background: $light-grey url('../images/bg.jpg') top center no-repeat fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
 
   @include media($section-breakpoint) {
     padding-top: $section-padding-large * 8;
     margin-top: -#{$section-padding-large * 8};
   }
+
+  h1 {
+  margin-bottom: 1em;
+  color: darken($light-green, 25);
+  font-family: $font--sans;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-align: center;
+  }
+
+  h2 {
+    color: $grey;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+  }
+
+} // .p-HomeMedia
+
+.p-HomeMedia__wrapper {
+  @include outer-container;
+}
+
+.p-HomeMedia__links {
+  @include row;
+
+  @include media($layout--medium) {
+    .p-HomeMedia__links-group {
+      @include span-columns(3 of 6);
+      @include omega(2n);
+    }
+  } //@include media($layout--medium)
 }

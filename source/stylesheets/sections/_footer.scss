@@ -5,13 +5,15 @@
  */
 
 .s-Footer {
-  background: $white;
   padding: $section-padding $page-gutter;
+  background: $white;
   font-family: $font--sans;
   text-align: center;
 }
 
-.s-Footer__attribution a {
-  border-bottom: none;
+.s-Footer__attribution {
+  font-family: $font--serif;
   font-size: 75%;
+
+  a { border-bottom: 0; }
 }
