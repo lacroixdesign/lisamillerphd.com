@@ -35,6 +35,11 @@
 .p-HomeMedia__links {
   @include row;
 
+  li {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
   @include media($layout--medium) {
     .p-HomeMedia__links-group {
       @include span-columns(3 of 6);

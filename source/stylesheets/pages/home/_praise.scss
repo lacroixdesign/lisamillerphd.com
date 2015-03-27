@@ -1,5 +1,5 @@
 .p-HomePraise {
-  margin-bottom: $section-padding;
+  margin-top: $section-padding;
 
 
   h1 {
@@ -29,7 +29,6 @@
     display: block;
     margin-top: 1em;
     font-size: 75%;
-    color: $green;
 
     &:before { content: "—" }
   }
