@@ -6,7 +6,12 @@
         <h2>Online Articles</h2>
         <ul>
           <% data.articles.each do |article| %>
-          <li class="b-Text"> <a href="<%= article.url %>" target="_blank"><%= article.title %></a></li>
+          <li class="b-Text">
+            <div class="p-HomeMedia__source">
+              <%= article.source %>
+            </div>
+            <a href="<%= article.url %>" target="_blank"><%= article.title %></a>
+          </li>
           <% end %>
       </div>
       <div class="p-HomeMedia__links-group">
