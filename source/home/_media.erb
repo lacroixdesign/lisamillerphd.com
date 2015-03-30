@@ -13,9 +13,20 @@
             <a href="<%= article.url %>" target="_blank"><%= article.title %></a>
           </li>
           <% end %>
+        </ul>
       </div>
       <div class="p-HomeMedia__links-group">
-        <h2>Television Appearences</h2>
+        <h2>Television Appearances</h2>
+        <ul>
+          <% data.television.each do |appearance| %>
+          <li class="b-Text">
+            <div class="p-HomeMedia__source">
+              <%= appearance.source %>
+            </div>
+            <a href="<%= appearance.url %>" target="_blank"><%= appearance.title %></a>
+          </li>
+          <% end %>
+        </ul>
       </div>
     </div>
   </div>
