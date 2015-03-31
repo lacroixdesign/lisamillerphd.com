@@ -3,12 +3,33 @@
   <div class="p-HomeWelcome__wrapper">
     <div class="p-HomeWelcome__book">
       <div class="p-HomeWelcome__book-image">
-        <%=image_tag "tsc-cover.jpg" %>
+        <%= image_tag "tsc-cover.jpg" %>
       </div>
       <h4>Preorder the Book</h4>
-      <a href="http://www.barnesandnoble.com/w/the-spiritual-child-lisa-miller/1120420366?ean=9781250032928" class="Btn wow bounceIn" data-wow-duration="1s" data-wow-delay="0s" target="_blank">Barnes & Noble</a>
-      <a href="http://www.amazon.com/The-Spiritual-Child-Parenting-Lifelong/dp/125003292X" class="Btn wow bounceIn" data-wow-duration="1s" data-wow-delay="0s" target="_blank">Amazon</a>
-      <a href="http://www.booksamillion.com/p/Spiritual-Child/Lisa-Miller/9781250032928?id=6105449413142" class="Btn wow bounceIn" data-wow-duration="1s" data-wow-delay="0s" target="_blank">Books-A-Million</a>
+      <a href="<%= data.links.barnes_and_noble %>"
+          class="Btn wow bounceIn"
+          data-track-outbound-preorder
+          data-wow-duration="1s"
+          data-wow-delay="0s"
+          target="_blank">
+        Barnes &amp; Noble
+      </a>
+      <a href="<%= data.links.amazon %>"
+          class="Btn wow bounceIn"
+          data-track-outbound-preorder
+          data-wow-duration="1s"
+          data-wow-delay="0s"
+          target="_blank">
+        Amazon
+      </a>
+      <a href="<%= data.links.booksamillion %>"
+          class="Btn wow bounceIn"
+          data-track-outbound-preorder
+          data-wow-duration="1s"
+          data-wow-delay="0s"
+          target="_blank">
+        Books-A-Million
+      </a>
     </div>
 
     <div class="p-HomeWelcome__synopsis b-Text">
