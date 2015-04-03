@@ -1,15 +1,17 @@
 /* Remove Focus Boxes */
+
 select:focus {
-  outline: 1px solid color("materialize-red", "lighten-4");
+  outline: 1px solid color('materialize-red', 'lighten-4');
 }
+
 button:focus {
-  outline: none;
   background-color: lighten($button-color, 4%);
+  outline: none;
 }
 
 label {
-  font-size: $label-font-size;
   color: $input-border-color;
+  font-size: $label-font-size;
 }
 
 /***************************
@@ -21,14 +23,15 @@ label {
   margin-top: 1rem;
 
   label {
-    color: $input-border-color;
     position: absolute;
     top: 0.8rem;
     left: 0;
+    color: $input-border-color;
     font-size: 1rem;
     cursor: text;
-    @include transition(.2s ease-out);
+    @include transition(0.2s ease-out);
   }
+
   label.active {
     font-size: $label-font-size;
     @include transform(translateY(-140%));
@@ -81,13 +84,15 @@ label {
 
     &.active { color: $input-focus-color; }
   }
+
   .prefix ~ input,
   .prefix ~ textarea {
-    margin-left: 3rem;
     width: 92%;
     width: calc(100% - 3rem);
+    margin-left: 3rem;
   }
-  .prefix ~ textarea { padding-top: .8rem; }
+
+  .prefix ~ textarea { padding-top: 0.8rem; }
   .prefix ~ label { margin-left: 3rem; }
 
   @include media($layout--medium) {
@@ -96,6 +101,7 @@ label {
       width: calc(100% - 3rem);
     }
   }
+
   @include media($layout--small) {
     .prefix ~ input {
       width: 80%;
@@ -107,9 +113,9 @@ label {
 
 // Default textarea
 textarea {
-   width: 100%;
-   height: 3rem;
-   background-color: transparent;
+  width: 100%;
+  height: 3rem;
+  background-color: transparent;
 }
 
 input[type=text],
@@ -121,19 +127,18 @@ input[type=tel],
 input[type=number],
 input[type=search],
 textarea.materialize-textarea {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid $input-border-color;
-  outline: none;
-  height: 3rem;
   width: 100%;
-
-  font-size: 1rem;
-  margin: 0 0 15px 0;
+  height: 3rem;
   padding: 0;
+  margin: 0 0 15px;
+  border: 0;
+  border-bottom: 1px solid $input-border-color;
   box-shadow: none;
+  background-color: transparent;
+  font-size: 1rem;
+  outline: none;
   @include box-sizing(content-box);
-  @include transition(.3s);
+  @include transition(0.3s);
 }
 
 input[type=text]:focus,
@@ -150,19 +155,19 @@ textarea:focus.materialize-textarea {
 }
 
 textarea.materialize-textarea {
-  overflow-y: hidden; /* prevents scroll bar flash */
-  padding: 1.6rem 0; /* prevents text jump on Enter keypress */
-  resize: none;
   min-height: 3rem;
+  padding: 1.6rem 0; /* prevents text jump on Enter keypress */
+  overflow-y: hidden; /* prevents scroll bar flash */
+  resize: none;
 }
 
 // For textarea autoresize
 .hiddendiv {
   display: none;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  overflow-wrap: break-word; /* future version of deprecated 'word-wrap' */
   padding-top: 1.2rem; /* prevents text jump on Enter keypress */
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  overflow-wrap: break-word; /* future version of deprecated 'word-wrap' */
 }
 
 /***************************
@@ -170,10 +175,10 @@ textarea.materialize-textarea {
 ****************************/
 
 select {
-   background-color: #fffafa;
-   width: 100%;
-   padding: 5px;
-   border: 1px solid #f2f2f2;
-   border-radius: 2px;
-   height: 3rem;
-   }
+  width: 100%;
+  height: 3rem;
+  padding: 5px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  background-color: #fffafa;
+}
