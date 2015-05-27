@@ -1,7 +1,7 @@
 .p-HomeWelcome {
   @extend .s-Section;
   @include scrolling-clouds;
-  padding-top: $section-padding;
+  padding-top: $section-padding/2;
   padding-bottom: $section-padding * 2;
 
   img {
@@ -10,7 +10,7 @@
   }
 
   @include media($section-breakpoint) {
-    padding-top: $section-padding-large * 1.5;
+    padding-top: $section-padding-large * 0.75;
     padding-bottom: $section-padding-large * 2.5;
   }
 }
@@ -66,3 +66,21 @@
     @include omega;
   }
 }
+
+.p-HomeWelcome__accolades {
+  padding-bottom: $section-padding-large * 0.75;
+  text-align: center;
+
+  li {
+    padding: 0 1em;
+    display: inline-block;
+    color: $grey;
+    font-family: $font--sans;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+} // .p-HomeWelcome__accolades
