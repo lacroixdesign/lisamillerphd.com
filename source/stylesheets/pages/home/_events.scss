@@ -1,0 +1,74 @@
+.p-HomeEvents {
+
+  h1 {
+    margin-bottom: 1em;
+    color: darken($light-green, 25);
+    font-family: $font--sans;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  h2 {
+    color: $grey;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .p-HomeEvents__cta {
+    text-align: center;
+    padding-bottom: 1em;
+  }
+
+  table {
+    margin: auto;
+    font-size: 87.5%;
+
+    a {
+      border-bottom: 0;
+      font-style: italic;
+    }
+  } // table
+
+  tr,
+  th,
+  td {
+    display: block;
+    text-align: center;
+  }
+
+  tr {
+    margin-bottom: 1em;
+  }
+
+  th,
+  td {
+    padding: 0.25em;
+  }
+
+  .p-HomeEvents__date {
+    font-weight: bold;
+  }
+
+  @include media($layout--large) {
+
+    tr {
+      display: table-row;
+    }
+
+    th,
+    td {
+      display: table-cell;
+      padding: 0.5em 0.25em;
+      text-align: left;
+    }
+
+  } //@include media($layout--large)
+
+} // .p-HomeEvents

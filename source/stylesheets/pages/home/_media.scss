@@ -1,12 +1,12 @@
 .p-HomeMedia {
   @extend .s-Section;
   @include scrolling-clouds;
-  padding-top: $section-padding * 8;
-  margin-top: -#{$section-padding * 8};
+  padding-top: $section-padding * 12;
+  margin-top: -#{$section-padding * 12};
 
   @include media($section-breakpoint) {
-    padding-top: $section-padding-large * 8;
-    margin-top: -#{$section-padding-large * 8};
+    padding-top: $section-padding-large * 12;
+    margin-top: -#{$section-padding-large * 12};
   }
 
   h1 {

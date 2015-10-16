@@ -1,0 +1,49 @@
+<section id="video" class="p-HomeEvents wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="0s">
+
+  <div class="s-SectionWrapper Container">
+    <div class="b-Text">
+    <h1>Speaking Events</h1>
+    </div>
+    <div class="p-HomeEvents__cta">
+      <a href="mailto:TheSpiritualChild@gmail.com"
+          class="Btn wow bounceIn"
+          data-wow-duration="1s"
+          data-wow-delay="1.5s"
+          target="_blank">
+        Schedule Doctor Miller
+      </a>
+    </div>
+    <div class="b-Text">
+      <p>Dr. Miller will be traveling the United States speaking in these locations:</p>
+      <table>
+        <% data.events.each do |year, events| %>
+          <tr>
+            <th colspan="4">
+              <h2><%= year %></h2>
+            </th>
+          </tr>
+          <% events.each do |event| %>
+            <tr>
+              <td class="p-HomeEvents__date">
+                <%= event.date %>
+              </td>
+              <td>
+                <%= event.venue %>
+              </td>
+              <td>
+                <%= event.location %>
+              </td>
+              <td>
+                <% if event.url %>
+                  <a href="<%= event.url %>" target="_blank">
+                    More Info
+                  </a>
+                <% end %>
+              </td>
+            </tr>
+          <% end %>
+        <% end %>
+      </table>
+  </div>
+  </div>
+</section>

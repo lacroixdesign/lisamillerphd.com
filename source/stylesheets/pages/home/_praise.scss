@@ -1,7 +1,6 @@
 .p-HomePraise {
   margin-top: $section-padding;
 
-
   h1 {
     margin-bottom: 1em;
     color: $dark-green;
@@ -24,9 +23,9 @@
   }
 
   blockquote {
-    border-left: none;
-    padding: 1em 0 1em;
+    padding: 1em 0;
     margin: 0 auto;
+    border-left: 0;
   }
 
   cite {
@@ -35,7 +34,7 @@
     font-size: 75%;
     font-style: normal;
 
-    &:before { content: "—" }
+    &:before { content: '—'; }
   }
 
   @include media($layout--xlarge) {
@@ -43,5 +42,5 @@
       @include span-columns(3 of 6);
       @include omega(2n);
     }
-  } //@include media($layout--medium)
-}
+  } //@include media($layout--xlarge)
+} // .p-HomePraise
