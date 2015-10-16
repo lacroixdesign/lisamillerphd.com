@@ -1,0 +1,22 @@
+.p-HomeSchedule {
+  margin-bottom: $section-padding;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 1em;
+    color: darken($light-green, 25);
+    font-family: $font--sans;
+    font-weight: normal;
+    font-size: 1.5em;
+  }
+
+  p {
+    max-width: 35em;
+    margin: auto;
+  }
+
+  .p-HomeSchedule__cta {
+    padding: 1em;
+  }
+
+}
