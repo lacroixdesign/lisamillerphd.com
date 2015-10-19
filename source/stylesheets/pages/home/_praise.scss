@@ -1,6 +1,5 @@
 .p-HomePraise {
   margin-top: $section-padding;
-  margin-bottom: $section-padding*2;
 
   h1 {
     margin-bottom: 1em;
@@ -36,6 +35,10 @@
     font-style: normal;
 
     &:before { content: '—'; }
+  }
+
+  @include media($layout--large) {
+    margin-bottom: $section-padding*2;
   }
 
   @include media($layout--xlarge) {
