@@ -1,6 +1,5 @@
 .p-HomeNewsletter {
   @include outer-container;
-  margin: -#{$section-padding * 2} auto $section-padding;
   text-align: center;
 
   h1 {

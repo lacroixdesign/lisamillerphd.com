@@ -1,5 +1,5 @@
 .p-HomeAuthor {
-  margin-bottom: $section-padding;
+  margin: -#{$section-padding * 4} auto $section-padding;
 
   h1 {
     margin-bottom: 1em;
