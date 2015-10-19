@@ -29,7 +29,7 @@
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  
+
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -79,6 +79,7 @@
 <body>
   <%= partial "layouts/header" %>
   <%= yield %>
+  <%= partial "home/newsletter" %>
   <%= partial "layouts/footer" %>
 
   <%# JavaScripts %>
