@@ -69,6 +69,9 @@
     venue: "Jewish Day School of Rhode Island"
     location: "Providence, RI"
 
+  - date: "December 16"
+    venue: "Jewish Community Center"
+    location: "Newton, MA"
 
 2016:
 
@@ -87,6 +90,10 @@
   - date: "February 7"
     venue: "Temple Micah"
     location: "Washington DC"
+
+  - date: "February 9"
+    venue: "Northfield Mount Herman School"
+    location: "Gill, MA"
 
   - date: "February 10 & 11"
     venue: "Deerfield Academy"
@@ -107,6 +114,10 @@
   - date: "February 28"
     venue: "Christ and Holy Trinity Church"
     location: "Westport, CT"
+
+  - date: "February 29"
+    venue: "Dalton School"
+    location: "New York, NY"
 
   - date: "March 3"
     venue: "St. Stephen's School"
