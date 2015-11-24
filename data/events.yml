@@ -76,7 +76,7 @@
 2016:
 
   - date: "January 6"
-    venue: "Princeton Academy"
+    venue: "Stuart Country Day School/Princeton Academy"
     location: "Princeton, NJ"
 
   - date: "January 11"
@@ -86,6 +86,10 @@
   - date: "January 18"
     venue: "Canyon Ranch"
     location: "Tucson, AZ"
+
+  - date: "January 24"
+    venue: "Saint Luke's Parish"
+    location: "Darien, CT"
 
   - date: "February 7"
     venue: "Temple Micah"
