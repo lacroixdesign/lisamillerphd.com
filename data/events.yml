@@ -73,6 +73,10 @@
     venue: "Jewish Community Center"
     location: "Newton, MA"
 
+  - date: "December 23"
+    venue: " Cheeca Lodge and Spa"
+    location: "Islamorada, FL"
+
 2016:
 
   - date: "January 6"
@@ -90,6 +94,14 @@
   - date: "January 24"
     venue: "Saint Luke's Parish"
     location: "Darien, CT"
+
+  - date: "February 4"
+    venue: "Brick Church School"
+    location: "New York, NY"
+
+  - date: "February 5"
+    venue: "Newark Academy"
+    location: "Livingston, NJ"
 
   - date: "February 7"
     venue: "Temple Micah"
@@ -123,6 +135,10 @@
     venue: "Dalton School"
     location: "New York, NY"
 
+  - date: "March 4"
+    venue: "Carrollton School of the Sacred Heart"
+    location: "Miami, FL"
+
   - date: "March 3"
     venue: "St. Stephen's School"
     location: "Richmond, VA"
@@ -138,3 +154,7 @@
   - date: "March 31"
     venue: "Youth Leadership Conference <br> LDS Church"
     location: "Salt Lake, UT"
+
+  - date: "May 19"
+    venue: "Browning School"
+    location: "New York, NY"
