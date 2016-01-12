@@ -135,13 +135,14 @@
     venue: "Dalton School"
     location: "New York, NY"
 
-  - date: "March 4"
-    venue: "Carrollton School of the Sacred Heart"
-    location: "Miami, FL"
-
   - date: "March 3"
     venue: "St. Stephen's School"
     location: "Richmond, VA"
+    url: "http://www.ststephensrva.org/reflect-learn/guest-speakers/"
+
+  - date: "March 4"
+    venue: "Carrollton School of the Sacred Heart"
+    location: "Miami, FL"
 
   - date: "March 18–28"
     venue: "Ojai Foundation"
