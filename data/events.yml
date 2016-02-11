@@ -87,10 +87,6 @@
     venue: "Ridgefield Schools & Public Library"
     location: "Ridgefield, CT"
 
-  - date: "January 18"
-    venue: "Canyon Ranch"
-    location: "Tucson, AZ"
-
   - date: "January 24"
     venue: "Saint Luke's Parish"
     location: "Darien, CT"
@@ -156,6 +152,26 @@
     venue: "Youth Leadership Conference <br> LDS Church"
     location: "Salt Lake, UT"
 
+  - date: "April 7"
+    venue: "Council on Recovery"
+    location: "Houston, TX"
+
+  - date: "April 13"
+    venue: "Gilmour Academy"
+    location: "Cleveland, OH"
+
+  - date: "April 20–21"
+    venue: "Ethical Culture Fieldstone School"
+    location: "New York, NY"
+
+  - date: "May 5"
+    venue: "Teachers College, Columbia University"
+    location: "New York, NY"
+
   - date: "May 19"
     venue: "Browning School"
     location: "New York, NY"
+
+  - date: "June 22–24"
+    venue: "Canyon Ranch"
+    location: "Lenox, MA"
