@@ -176,3 +176,137 @@
   - date: "June 22–24"
     venue: "Canyon Ranch"
     location: "Lenox, MA"
+
+  - date: "July 27–August 1"
+    venue: "August in Aspen"
+    location: "Aspen, CO"
+
+  - date: "August 4"
+    venue: "Georgetown University"
+    location: "Washington, DC"
+
+  - date: "September 9–10"
+    venue: "Ojai Foundation"
+    location: "Ojai, CA"
+
+  - date: "September 25"
+    venue: "St. James Church – Sunday Talk"
+    location: "New York, NY"
+
+  - date: "September 26"
+    venue: "St. James Church – Parent Talk"
+    location: "New York, NY"
+
+  - date: "September 27"
+    venue: "Horticultural Society of New York"
+    location: "New York, NY"
+
+  - date: "September 29–30"
+    venue: "Christ United Methodist Church"
+    location: "Plano, TX"
+
+  - date: "October 14"
+    venue: "Congregation Beth Am"
+    location: "Los Altos, CA"
+
+  - date: "October 15"
+    venue: "Millenium School"
+    location: "San Francisco, CA"
+
+  - date: "October 17"
+    venue: "Grace Cathedral"
+    location: "San Francisco, CA"
+
+  - date: "October 17"
+    venue: "Christ Church Portola Valley"
+    location: "Portola Valley, CA"
+
+  - date: "October 18"
+    venue: "Nueva School"
+    location: "Hillsborough, CA"
+
+  - date: "October 18"
+    venue: "Woodside Priory School"
+    location: "Portola Valley, CA"
+
+  - date: "October 20"
+    venue: "Center for Care and Counseling"
+    location: "St. Louis, MO"
+
+  - date: "October 21"
+    venue: "National Schools of Sacred Heart St. Charles"
+    location: "St. Charles, MO"
+
+  - date: "October 21"
+    venue: "Temple Shaare Emeth"
+    location: "St. Louis, MO"
+
+  - date: "October 23"
+    venue: "Church of St. Michael and St. George"
+    location: "St. Louis MO"
+
+  - date: "October 27–28"
+    venue: "National Council of Spirituality in Education at Magnificat High School"
+    location: "Cleveland, OH"
+
+  - date: "November 1"
+    venue: "Congregation Adas Israel"
+    location: "Washington, DC"
+
+  - date: "November 4"
+    venue: "St. David's School"
+    location: "New York, NY"
+
+  - date: "November 8"
+    venue: "Madison Avenue Presbyterian Day School"
+    location: "New York, NY"
+
+  - date: "November 20"
+    venue: "Wilton Congregational Church"
+    location: "Wilton, CT"
+
+  - date: "December 3"
+    venue: "St. Catherine's Episcopal Church"
+    location: "Atlanta, GA"
+
+  - date: "December 4"
+    venue: "Temple Sinai Atlanta"
+    location: "Atlanta, GA"
+
+  - date: "December 8"
+    venue: "Temple B'nai Jeshuran"
+    location: "Summit, NJ"
+
+2017:
+  
+  - date: "January 19"
+    venue: "Ethical Culture Fieldston School"
+    location: "New York, NY"
+
+  - date: "January 22"
+    venue: "Greenwich Congregational Church Old"
+    location: "Greenwich, CT"
+
+  - date: "January 26"
+    venue: "Heard in Rye"
+    location: "Rye, NY"
+
+  - date: "February 9"
+    venue: "Cambell Hall & Valley Beth Shalom"
+    location: "Los Angeles, CA"
+
+  - date: "March 13"
+    venue: "Kentucky Association of Independent Schools"
+    location: "Louisville, KY"
+
+  - date: "March 14"
+    venue: "Kentucky Association of Independent Schools"
+    location: "Louisville, KY"
+
+  - date: "April 21"
+    venue: "Childrens Hospital of Dallas"
+    location: "Dallas, TX"
+
+  - date: "April 26"
+    venue: "St. James Church"
+    location: "New York, NY"
