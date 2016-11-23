@@ -278,14 +278,18 @@
     location: "Summit, NJ"
 
 2017:
-  
+
+  - date: "January 12"
+    venue: "Marymount School"
+    location: "New York, NY"
+
   - date: "January 19"
     venue: "Ethical Culture Fieldston School"
     location: "New York, NY"
 
   - date: "January 22"
-    venue: "Greenwich Congregational Church Old"
-    location: "Greenwich, CT"
+    venue: "Greenwich Congregational Church"
+    location: "Old Greenwich, CT"
 
   - date: "January 26"
     venue: "Heard in Rye"
@@ -301,7 +305,7 @@
 
   - date: "March 14"
     venue: "Kentucky Association of Independent Schools"
-    location: "Louisville, KY"
+    location: "Lexington, KY"
 
   - date: "April 21"
     venue: "Childrens Hospital of Dallas"
