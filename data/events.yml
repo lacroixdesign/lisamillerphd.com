@@ -295,9 +295,21 @@
     venue: "Heard in Rye"
     location: "Rye, NY"
 
+  - date: "February 5"
+    venue: "Prizmah Conference"
+    location: "Chicago, IL"
+
   - date: "February 9"
     venue: "Cambell Hall & Valley Beth Shalom"
     location: "Los Angeles, CA"
+
+  - date: "February 10"
+    venue: "Marlborough School"
+    location: "Los Angeles, CA"
+
+  - date: "February 23"
+    venue: "University of Virginia"
+    location: "Charlottesville, VA"
 
   - date: "March 13"
     venue: "Kentucky Association of Independent Schools"
@@ -306,6 +318,10 @@
   - date: "March 14"
     venue: "Kentucky Association of Independent Schools"
     location: "Lexington, KY"
+
+  - date: "April 5"
+    venue: "St. Joseph Parenting Center"
+    location: "Stamford, CT"
 
   - date: "April 21"
     venue: "Childrens Hospital of Dallas"
