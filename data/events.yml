@@ -311,6 +311,10 @@
     venue: "University of Virginia"
     location: "Charlottesville, VA"
 
+  - date: "February 28"
+    venue: "Pear Tree Point-Darien Library"
+    location: "Darien, CT"
+
   - date: "March 13"
     venue: "Kentucky Association of Independent Schools"
     location: "Louisville, KY"
@@ -323,6 +327,10 @@
     venue: "St. Joseph Parenting Center"
     location: "Stamford, CT"
 
+  - date: "April 20"
+    venue: "Akiba Academy"
+    location: "Dallas, TX"
+
   - date: "April 21"
     venue: "Childrens Hospital of Dallas"
     location: "Dallas, TX"
@@ -330,3 +338,39 @@
   - date: "April 26"
     venue: "St. James Church"
     location: "New York, NY"
+
+  - date: "May 20"
+    venue: "Jewish Youth Leadership"
+    location: "New York, NY"
+
+  - date: "May 20"
+    venue: "Kenote Graduation Speaker, Yeshiva Univ."
+    location: "New York, NY"
+
+  - date: "June 13"
+    venue: "Nevola Symposium, Colby College"
+    location: "Waterville, ME"
+
+  - date: "September 9"
+    venue: "Sacred Heart School"
+    location: "Greenwich, CT"
+
+  - date: "September 17"
+    venue: "Church of the Heavenly Rest"
+    location: "New York, NY"
+
+  - date: "October 18"
+    venue: "Sacred Heart Schools"
+    location: "Atherton, CA"
+
+  - date: "October 20"
+    venue: "Nueva Innovation Conference"
+    location: "Hillsborough, CA"
+
+  - date: "November 9"
+    venue: "Independent School Association of the Central States"
+    location: "Chicago, IL"
+
+  - date: "November 10"
+    venue: "Psychotherapy and Faith Conference, ISH-TMC"
+    location: "Houston, TX"
