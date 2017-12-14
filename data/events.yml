@@ -359,13 +359,41 @@
     venue: "Church of the Heavenly Rest"
     location: "New York, NY"
 
+  - date: "October 5"
+    venue: "Trafalgar Castle School"
+    location: "Toronto, CA"
+
+  - date: "October 17"
+    venue: "Oakland Jewish Day School"
+    location: "Oakland, CA"
+
+  - date: "October 18"
+    venue: "Woodside Priory School"
+    location: "Portola Valley, CA"
+
   - date: "October 18"
     venue: "Sacred Heart Schools"
     location: "Atherton, CA"
 
+  - date: "October 19"
+    venue: "Palo Alto University"
+    location: "Palo Alto, CA"
+
   - date: "October 20"
     venue: "Nueva Innovation Conference"
     location: "Hillsborough, CA"
+
+  - date: "October 24"
+    venue: "Sacred Heart School"
+    location: "Greenwich, CT"
+
+  - date: "October 25"
+    venue: "Sacred Heart"
+    location: "Bloomfield Hills, MI"
+
+  - date: "November 8"
+    venue: "U of Chicago Lab School"
+    location: "Chicago, IL"
 
   - date: "November 9"
     venue: "Independent School Association of the Central States"
@@ -374,3 +402,27 @@
   - date: "November 10"
     venue: "Psychotherapy and Faith Conference, ISH-TMC"
     location: "Houston, TX"
+
+  - date: "November 10 & 11"
+    venue: "Rice University, Boniuk Institute"
+    location: "Houston, TX"
+
+  - date: "November 12 & 13"
+    venue: "Kinkaid School"
+    location: "Houston, TX"
+
+  - date: "November 14"
+    venue: "Temple Emanu-El"
+    location: "Dallas, TX"
+
+  - date: "November 18"
+    venue: "Christ Episcopal Church"
+    location: "Charlotte, NC"
+
+  - date: "December 4"
+    venue: "Church of the Heavenly Rest"
+    location: "New York, NY"
+
+  - date: "December 6"
+    venue: "B'nai Israel Preschool"
+    location: "Bridgeport, CT"
