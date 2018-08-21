@@ -1,0 +1,1 @@
+window.trackOutboundLink=function(n){ga("send","event","outbound","click",n)},$(document).on("click","[data-track-outbound-preorder]",function(){var n=$(this).text();window.trackOutboundLink(n)}),$(document).on("submit","[data-track-subscribe]",function(){ga("send","event","newsletter","subscribe")});

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+    <symbol id="icon-menu" viewBox="0 0 512 512">
+      <path d="m64 384l384 0 0-43-384 0z m0-107l384 0 0-42-384 0z m0-149l0 43 384 0 0-43z"/>
+    </symbol>
+
+    <symbol id="icon-close" viewBox="0 0 512 512">
+      <path d="m405 137l-30-30-119 119-119-119-30 30 119 119-119 119 30 30 119-119 119 119 30-30-119-119z"/>
+    </symbol>
+
+</svg>

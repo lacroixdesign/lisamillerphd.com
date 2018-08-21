@@ -1,0 +1,1 @@
+$(document).ready(function(){$("[data-fluid-video]").fitVids()});
